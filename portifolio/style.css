@@ -8,9 +8,35 @@ body{
     width: 150px;
     height: auto;
 }
+#perfil{
+    width: auto;
+    height: 90vh;
+}
 #perfil p{
     gap: 10px;
 }
-i{
-    width: 40px;
+navbar-nav a{
+    color: white;
+}
+navbar-nav a:hover{
+    color: blue;
+}
+strong{
+    color: red;
+}
+#sobre-Mim{
+    background-color: black;
+    
+}
+#sobre-Mim img{
+    width: 250px;
+}
+@media (max-width: 450px){
+    .Mobile{
+        display: flex;
+        flex-direction: column;
+    } 
+    .Mobile img{
+        
+    }
 }
