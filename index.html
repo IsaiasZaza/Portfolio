@@ -1,79 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arte</title>
-    <link rel="shortcut icon" href="art_logo (1).svg" type="image/x-icon">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div id="containerPai">
-        <header class="row" id="header">
-            <div id="logo-container">
-                <img src="art_logo (1).svg" alt="Art" id="logo">
-                <h1>Arte</h1>
-            </div>
-            <p>Exibiçoes de Arte urbana</p>
-        </header>
-        <nav id="nav-bar" class="container">
-            <div class="row justify-content-center">
-                <a href="#">Home</a>
-                <a href="#">Projetos</a>
-                <a href="#">Artistas</a>
-                <a href="#">Contato</a>
-            </div>
-        </nav>
-    </div>
-    <!--banner-->
-    <div class="container" id="main-image">
-        <div class="main-image center-image">
-            <div class="main-image-info">
-            <h2>Arte no muro</h2> 
-                <p class="secondary-color">Realizada no dia la 00/00/0000</p>
-                <a href="" class="btn">Detalhes</a>
+    <nav class="navbar navbar-expand-lg bg-black text-light navbar-dark fixed">
+        <div class="container-fluid fixed bg-black text-light navbar-dark">
+            <a class="navbar-brand" href="#">IsaiasDev</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                </ul>
+                <ul class="navbar-nav itemhover">
+                    <li class="nav-item">
+                        <a class="nav-link text-white itemhover" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white itemhover" href="#projetos">Projetos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white itemhover" href="#contato">Contato</a>
+                    </li>
+                </ul>
             </div>
         </div>
-    </div>
-    <!--Galeria-->
-    <div class="container" id="gallery-container">
-        <div class="col-12">
-            <h1>Artes em destaques</h1>
-            <div class="row gx-5">
-                <div class="col-12 col-md-6">
-                    <div class="small-image-container center-image" id="img2"></div>
-                    <h3>Obra 3</h3>
-                    <p class="secondary-color">Realizada em: 26/01/2020</p>
-                    <a href="" class="btn">Detalhes</a>
+    </nav>
+    <main>
+        <section class="my-5" id="perfil">
+            <div class="container my-5" id="menu">
+                <h5>Olá meu nome é</h5>
+                <h1>Isaias Gonçalves</h1>
+                <h2>Sou desenvolvedor <strong>Front-End</strong></h2>
+                <p class="d-flex justify-content-end"></p>
+                <button class="button">Download Cv</button>
+            </div>
+            <div class="container">
+                <div>
+                    <strong class="mx-2">Entre em contato</strong>
                 </div>
-                <div class="col-12 col-md-6">
-                    <div class="small-image-container center-image" id="img3"></div>
-                    <h3>Grafite Zaza</h3>
-                    <p class="secondary-color">Realizada em: 26/01/2302</p>
-                    <a href="" class="btn">Detalhes</a>
-                </div>
-                <div class="col-12 col-md-6">
-                    <div class="small-image-container center-image" id="img4"></div>
-                    <h3>Obra 2</h3>
-                    <p class="secondary-color">Realizada em: 26/01/5200</p>
-                    <a href="" class="btn">Detalhes</a>
-                </div>
-                <div class="col-12 col-md-6">
-                    <div class="small-image-container center-image" id="img5"></div>
-                    <h3>Obra 3</h3>
-                    <p class="secondary-color">Realizada em: 26/01/7891</p>
-                    <a href="" class="btn">Detalhes</a>
-                </div>
-                <div class="col-12 col-md-6">
-                    <div class="small-image-container center-image" id="img6"></div>
-                    <h3>Obra 4</h3>
-                    <p class="secondary-color">Realizada em: 26/01/0080</p>
-                    <a href="" class="btn">Detalhes</a>
+                <div class="d-flex mx-1 contactos">
+                    <a class="mx-1" href=""><img src="https://www.svgrepo.com/show/110227/linkedin-big-logo.svg" alt=""></a>
+                    <a class="mx-1" href=""><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
+                            alt=""></a>
+                    <a class="mx-1" href=""><img src="https://www.svgrepo.com/show/28155/whatsapp.svg" alt=""></a>
                 </div>
             </div>
-        </div>
-    </div>
+        </section>
+        <section id="sobre-Mim">
+            <div class="container d-flex Mobile">
+                <img class="border-Image border-0" src="IMG-20230706-WA0040.jpg" alt="">
+                <br><br>
+                <p class="text-light my-5 p-2 text-justify"><strong>Sobre mim</strong>Lorem ipsum dolor sit amet
+                    consectetur, adipisicing elit. Id, error animi. Iusto eius pariatur inventore
+                    explicabo dolores debitis ipsum omnis quae consequatur, eos consectetur expedita natus provident,
+                    nemo
+                    incidunt? QuaeLorem ipsum dolor sit amet consectetur, adipisicing elit. Id, error animi. Iusto eius
+                    pariatur inventore
+                    explicabo dolores debitis ipsum omnis quae consequatur, eos consectetur expedita natus provident,
+                    nemo
+                    incidunt? Quae.</p>
+            </div>
+        </section>
+        <section id="projetos">
+            <h1 class="text-center text-light align-items-center ">Projetos</h1>
+            <div class="album py-5 bg-black">
+                <div class="container">
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-3">
+                        <div class="col">
+                            <div class="card shadow-sm bg-black">
+                                <img class="border-Image" src="bg.jpg" alt="">
+                                <div class="card-body bg-black text-light">
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Laudantium repellat neque soluta itaque libero optio est in consequatur deleniti
+                                        quos aspernatur aut, maxime nisi ad provident autem voluptate. Dicta, a.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button"
+                                                class="btn btn-sm btn-outline-secondary text-light mx-1">Ver projeto</button>
+                                            <button type="button"
+                                                class="btn btn-sm btn-outline-secondary text-light">Ir para o Repositorio</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow-sm bg-black">
+                                <img class="border-Image" src="bg.jpg" alt="">
+                                <div class="card-body bg-black text-light">
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+                                        nisi omnis harum eum odit quidem soluta ipsum, voluptate enim doloremque
+                                        mollitia reiciendis possimus dicta eius dolor. Animi error illo porro.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button"
+                                                class="btn btn-sm btn-outline-secondary text-light mx-1">Ver projeto</button>
+                                            <button type="button"
+                                                class="btn btn-sm btn-outline-secondary text-light">Ir para o Repositorio</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow-sm bg-black">
+                                <img class="border-Image" src="bg.jpg" alt="">
+                                <div class="card-body bg-black text-light">
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        Ducimus blanditiis, ipsa, quod porro et quas delectus laboriosam illo sequi
+                                        optio, pariatur eveniet rem reprehenderit omnis minima reiciendis ad natus nisi.
+                                    </p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button"
+                                                class="btn btn-sm btn-outline-secondary text-light mx-1">Ver projeto</button>
+                                            <button type="button"
+                                                class="btn btn-sm btn-outline-secondary text-light">Ir para o Repositorio</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow-sm bg-black">
+                                <img class="border-Image" src="bg.jpg" alt="">
+                                <div class="card-body bg-black text-light">
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        Ducimus blanditiis, ipsa, quod porro et quas delectus laboriosam illo sequi
+                                        optio, pariatur eveniet rem reprehenderit omnis minima reiciendis ad natus nisi.
+                                    </p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button"
+                                                class="btn btn-sm btn-outline-secondary text-light mx-1">Ver projeto</button>
+                                            <button type="button"
+                                                class="btn btn-sm btn-outline-secondary text-light">Ir para o Repositorio</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        </section>
+    </main>
+    <footer class="bg-black">
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
