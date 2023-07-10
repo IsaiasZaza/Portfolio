@@ -99,7 +99,6 @@ footer {
 #contato {
     border-top: 1px solid rgb(253, 250, 250);
 }
-
 .contactos img {
     width: 55px;
 }
@@ -110,12 +109,11 @@ h2 strong{
     font-size: 2.5rem;
 }
 footer{
-
         background: #333;
-        padding: 20px;
         color: #fff;
         text-align: center;
-
+        padding: 5px;      
+        border-top: 1px solid white; 
 }
 
 @media (max-width: 450px) {
@@ -129,7 +127,6 @@ footer{
     h2{
         font-size: 1.2rem;
     }
-
 }
 ::-webkit-scrollbar{
     background-color: black;
