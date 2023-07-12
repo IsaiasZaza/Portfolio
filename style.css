@@ -112,8 +112,8 @@ h2 strong{
     font-size: 2.5rem;
 }
 footer{
-        background: #333;
-        color: #fff;
+        background: black;
+        color: rgb(255, 255, 255);
         text-align: center;
         padding: 5px;      
         border-top: 1px solid white; 
