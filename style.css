@@ -57,8 +57,8 @@ strong {
     width: auto;
 }
 #soft{
-  color: rgb(255, 255, 255);  
-  background-color: black; 
+  color: rgb(0, 0, 0);  
+  background-color: rgb(250, 250, 250); 
   box-shadow: 10px 10px 10px 10px #523959;
 }
 .soft h3{
@@ -67,8 +67,17 @@ strong {
 .softOne p{
     font-size: 1.4rem;
 }
+.imgSoft{
+    width: 100%;
+    margin: 0 auto;
+}
 .color{
     color: black;
+    font-size: 3vh;
+    font-weight: bold;
+}
+.color2{
+    color: rgb(34, 33, 33);
     font-size: 3vh;
     font-weight: bold;
 }
@@ -76,15 +85,21 @@ strong {
     color: black;
     font-size: 2vh;
 }
+.colorHard{
+    color: white;
+}
 .colorTitulo{
     color: black;
     font-weight: bold;
 }
 .caixa{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+.caixa2{
+    border-bottom: 1px solid rgb(0, 0, 0);
 }
 #fundoHard{
-    background-color: rgba(255, 255, 255, 0.784);
+    background-color: rgb(255, 255, 255);
 }
 .tamanhoHard{
     font-size: 4.5vh;
