@@ -63,6 +63,7 @@ strong {
   color: rgb(0, 0, 0);  
   background-color: #212026; 
   box-shadow: 10px 10px 10px 10px purple;
+  cursor: default;
 }
 #soft h3{
     color: #523959;
